@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+#banner{
+    width: 100%;
+    overflow: hidden;
+}
+#banner img{
+    width: 100%;
+    height: 70rem;
+}
+#banner h1{
+    color: greenyellow;
+    font-size: 10rem;
+    font-style: italic;
+    text-shadow: 0.5rem 0.5rem 10px white;
+    transform: translate(16rem, -50rem);
+}
+#banner p{
+    color: white;
+    font-size: 5rem;
+    font-style: italic;
+    text-shadow: 4px 8px 20px white;
+    transform: translate(26rem, -50rem);
+}
+header{
+    overflow: hidden;
+    height: 68rem;
+}
+                                 /* DESDE AQUÍ COMIENZA EL MAIN */
+#title{
+    color: rgb(18, 8, 107);
+    font-size: 5rem;
+    text-shadow: 4px 10px 10px fuchsia;
+    margin: 0;
+    padding-left: 10rem;
+}
+.mainbox{
+    background-color: white;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+fieldset{
+    border: 1rem solid purple;
+    margin: 1rem;
+    padding-bottom: 2rem;
+}
+legend{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 4px 10px 10px greenyellow;
+}
+.secondbox{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+.imagebox{
+    background-color: white;
+    width: 20%;
+    text-align: center;
+    padding: 2.5rem;
+}
+.image{
+    width: 30rem;
+    height: 30rem;
+}
+.text{
+    background-color: white;
+    width: 20%;
+    font-size: 2rem;
+    text-align: justify;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-top: 11rem;
+}
+.text h3{
+    background-color: white;
+    color: red;
+    font-size: 2.8rem;
+    text-align: left;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+}
+.detail{
+   font-style: italic;
+   width: 70rem;
+}
+                                   /* DESDE AQUÍ COMIENZA EL FOOTER */
+footer{
+    color: aliceblue;
+    height: 44rem;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(29, 27, 27);
+    }
+    .foot{
+        display: flex;
+    }
+    #mail{
+        color: aliceblue;
+    }
+    .footer_cols{
+        margin: auto;
+        padding: 4rem 0 0 0;
+        font-size: 1.5rem;
+    }
+    h4{
+        color: greenyellow;
+        font-size: 3.5rem;
+        margin-bottom: 2.5rem;
+    }
+    .bold   {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    #map{
+        margin-top: 7rem;
+        text-align: center;
+    }
+    .map{
+        margin-top: 2.5rem;
+        width:"100";
+        height:"100";
+        border: 0;
+    }
+    #address{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .social{
+    text-align: center;
+    }
+    .social img{
+        width: 2.5rem;
+    }
+    .social ul{
+        display: inline-table;
+    }
+    #copyright{
+        padding-top: 3rem;
+        text-align: center;
+        font-size: 2rem;
+    }
+        
